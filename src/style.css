@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body  {
+  display: flexbox;
+  width:1300px;
+  margin: 0 auto;
+  background-color:#F2F2F2 ;
+  color: #022601;
+}
+h1,h2,h3{
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 4em;
+}
+p,a{
+  font-family: 'Playfair Display', serif;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+#menu{
+  display: flex;
+}
+#logo{
+  max-width: 50%;
+}
+#menu-links{
+  flex-grow:1 ;
+  align-self: center;
+}
+.links{
+  display: inline-flex;
+}
+.links>li{
+  margin: 3em ;
+}
+.links>li>a{
+  color: #022601;
+  font-size: 1.5em;
+}
+#title-page>h1{
+  text-align: center;
+  font-size: 6em;
+}
+#title-page>h2{
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  color: #557370;
+}
+.separator{
+  display: flex;
+  justify-content: center;
+}
+.separator>img{
+  margin:  4em 0 ;
+}
+#presentation{
+  display: flex;
+}
+
+#presentation > .txt{
+  max-width:19.75em ;
+  align-items: flex-start;
+}
+#presentation > .txt >h2{
+  font-size: 4em;
+}
+#presentation > .txt >p{
+  font-size: 1.5em;
+}
+.box-buy{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline
+}
+.btn-buy{
+  width: 10em;
+  padding:1em;
+  margin: 1em 1em 0 0;
+  background: linear-gradient(98deg, #557370 1.61%, #99BFB8 92.22%);
+  border: 1px solid #99BFB8;
+  border-radius: 40px;
+  box-shadow: (0px 4px 4px rgba(85, 115, 112, 0.5));
+  text-decoration: none;
+  color: #F2F2F2;
+  font-size: 1.5em;
+  text-align: center;
+}
+.price{
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+}
+.box-img > img{
+  max-width:37.5em;
+}
+.box-ingredients, .box-flavors{
+  align-self: center;
+}
+.box-ingredients{
+}
+#flavors{
+  display:flex;
+}
+#tea > img{
+  width:27.5em;
+}
+.box-txt-flavors > .txt{
+  margin: 2em 1.5em 2em 2em;
+  align-self: center;
+}
+.box-txt-flavors > .txt >h2{
+  font-size: 1.5em;
+  font-family: 'Playfair Display', serif;
+
+}
+#about{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.txt-about-2 > h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+}
+#about-1{
+  max-width:38.75em ;
+  align-self: center;
+  text-align: center;
+}
+#about-2{
+  display: inline-flex;
+  margin-top: 5em ;
+}
+#about-2 > img{
+  max-width:50%;
+  margin-right: 5em;
+}
+#about-3{
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#about-3 > img{
+  max-width:25%;
+}
+.txt-about-3{
+  max-width:25%;
+}
+.txt-about-3 > h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+}
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.txt-contact{
+  display: inline-flex;
+}
+.txt-contact > li{
+  margin-right: 7em;
+  margin: 3em 3em;
+}
+.txt-contact > li > a{
+  text-decoration: none;
+  color: #022601;
+  font-size: 1.5em;
+}
+.txt-contact > li > h3{
+  text-align: start;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+}
+.social-media > img{
+  margin: 1.5em 2.5em;
+}
+.social-media > h2{
+  font-family:  'Playfair Display', serif;
+  font-size: 2em;
+}
+footer{
+  text-align: center;
+  margin-top: 3.125em ;
+  padding:2em;
+}
